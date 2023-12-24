@@ -13,6 +13,7 @@ const router = createBrowserRouter(
   [
     {
       element: <AppLayout />,
+      path:"/pizza_time",
       errorElement: <Error />,
       children: [
         {
