@@ -46,9 +46,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  {
-    basename: "/app",
-  },
+  
 );
 function App() {
   return <RouterProvider router={router} />;
